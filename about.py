@@ -12,7 +12,7 @@ class about(commands.Cog):
         )
 
         embed.set_author(name='Help:', icon_url=self.bot.user.avatar_url)
-        embed.add_field(inline=False, name='4Fun', value='> `howgay (@mention)`, `cat`, `dog,`')
+        embed.add_field(inline=False, name='4Fun', value='> `howgay (@mention)`, `howlesbian (@mention)`, `cat`, `dog,`')
         embed.add_field(inline=False, name='About', value='> `ping`')
 
         await ctx.send(embed=embed)
