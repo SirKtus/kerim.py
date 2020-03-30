@@ -1,4 +1,3 @@
-import sqlite3
 import discord
 from discord.ext import commands
 token = open("token").read()
@@ -9,6 +8,7 @@ client = commands.AutoShardedBot(command_prefix = '.')
 client.remove_command('help')
 client.load_extension('about')
 client.load_extension('eval')
+client.load_extension('jishaku')
 client.load_extension('fun')
 
 owners = [YOURID]
